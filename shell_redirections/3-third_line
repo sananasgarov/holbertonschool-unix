@@ -1,4 +1,2 @@
 #!/bin/bash
-# Display the third line of iacta file
-
-sed -n '3p' iacta
+head -n 3 iacta | tail -n 1
