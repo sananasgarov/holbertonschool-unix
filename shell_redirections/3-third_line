@@ -1,0 +1,3 @@
+#!/bin/bash
+mv iacta_0 iacta
+head -3 iacta | tail -1
